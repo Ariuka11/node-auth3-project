@@ -6,7 +6,7 @@ const router = express.Router()
 
 router.post('/register', async (req, res, next) => {
     try {
-        
+        const { username } = req.body
     } catch(err) {
         next(err)
     }
